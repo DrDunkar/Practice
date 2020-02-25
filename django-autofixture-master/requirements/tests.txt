@@ -1,5 +1,0 @@
-argparse
-coverage
-django-discover-runner
-Pillow
-tox
