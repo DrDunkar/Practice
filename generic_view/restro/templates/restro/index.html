@@ -1,0 +1,8 @@
+{% extends 'restro/base.html' %}
+{% block content %}
+    <ul>
+        <!-- {% for restu in object_list %} -->
+        <li></li><a href="{% url 'food-detail' restu.pk %}">{{restu.name}}- <img src="{{ restu.image.url }}"  style = "width:200px;"> -{{restu.address}}</a></li>
+        <!-- {% endfor %} -->
+    </ul>
+{% endblock %}
